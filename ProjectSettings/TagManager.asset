@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - InventoryManager
+  - Door
+  - QuestTrigger
+  - QuestItemPoint
+  - Revolver
+  - Granny
+  - Bullet
+  - Switch
+  - Cage
+  - Lever
+  - Button1
+  - Button2
+  - File
+  - ButtonSwitch1
+  - ButtonSwitch2
+  - Points
+  - FlashlightPoint
+  - Flashlight
+  - NoReboot
+  - Points2
+  - Doctor
+  - StartBtn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PostProcessing
+  - Water
+  - UI
+  - Ground
+  - Items
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

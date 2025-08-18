@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1266020170332384640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -33.4973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.902
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.838
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7153977
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6987175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 88.648
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      propertyPath: m_Name
+      value: GumDrop
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3789019479314370311}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a4cb620c221564546a727d1501a8ba1f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6492448758858301546}
+  m_SourcePrefab: {fileID: 100100000, guid: a4cb620c221564546a727d1501a8ba1f, type: 3}
+--- !u!1 &2112372336646230225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a4cb620c221564546a727d1501a8ba1f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1266020170332384640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3789019479314370311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112372336646230225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0137883141773ba4d84095471a4c1d70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameItem: Gum drop
+  descriptionItem: Just used gum drop
+  id: 6
+  countItem: 0
+  isStackable: 0
+  icon: {fileID: 21300000, guid: b0be5897dff0fd6438fb14eecf46612c, type: 3}
+  prefab: {fileID: 2112372336646230225}
+  isShown: 0
+  message: 
+--- !u!135 &6492448758858301546
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112372336646230225}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.15
+  m_Center: {x: -0.0000000055879354, y: 0.04364302, z: 0}
